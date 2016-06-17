@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Activity Transitions
+
+ A simple tutorial app to highlight the new Android transitions between activities
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+-->
+
+<!-- The main activity's layout -->
+
+<!-- horizontalSpacing - default horizontal spacing between columns -->
+<!-- verticalSpacing - default vertical spacing between rows -->
+<!-- clipToPadding - if to clip children and resize (but not clip) any EdgeEffect to its padding, if padding isn't zero. -->
+<!-- scrollbarStyle outsideOverlay - Scroll bar on edge of the view and overlaid -->
+
+<GridView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:horizontalSpacing="@dimen/space_between_content_areas"
+
+    android:verticalSpacing="@dimen/space_between_content_areas"
+
+    android:padding="@dimen/layout_padding"
+
+    android:clipToPadding="false"
+
+    android:numColumns="2"
+
+    android:scrollbarStyle="outsideOverlay"
+
+    android:id="@+id/am_gv"
+
+    tools:context=".MainActivity"
+
+    />
