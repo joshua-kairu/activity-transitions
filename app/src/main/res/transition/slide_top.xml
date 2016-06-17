@@ -35,7 +35,7 @@ Slide everything except the nav and status bars
 
     xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:slideEdge="right"
+    android:slideEdge="top"
 
     android:duration="700"
 
