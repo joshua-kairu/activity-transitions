@@ -8,7 +8,7 @@ This repository holds code for a very basic Android app that shows how to implem
 
 ## Version History :package:
 
-**latest** 	[XML Test v1.0.0](https://github.com/joshua-kairu/xml-test/releases/download/v1.0/XML-Test-v1.0.0.apk) 	Thursday, June 16, 2016
+**latest** 	[Activity Transitions v1.0.0](https://github.com/joshua-kairu/activity-transitions/releases/download/v1.0.0/Activity-Transitions-v1.0.0.apk) 	Thursday, June 16, 2016
 
 This repo tries its best to follow the [Semantic Versioning](http://semver.org/) guidelines.
 
