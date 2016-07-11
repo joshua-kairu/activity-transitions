@@ -32,7 +32,7 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 What is happening here is an [Activity Transition](https://developer.android.com/training/material/animations.html#Transitions). When an activity is started (say, by another activity), the started activity is said to enter and the starting activity is said to leave. Entering to and leaving from what, I don't know. :bowtie:  
 
-In the [styles.xml] file we have declared a [theme](https://developer.android.com/guide/topics/ui/themes.html#DefiningStyles) called `Details` since `Bb` does look like a details screen :smile:. 
+In the [styles.xml](https://github.com/joshua-kairu/activity-transitions/blob/master/app/src/main/res/values/styles.xml) file we have declared a [theme](https://developer.android.com/guide/topics/ui/themes.html#DefiningStyles) called `Details` since `Bb` does look like a details screen :smile:. 
 
 In the [Android Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro.html) file, we have declared that the Details activity (aka the `Bb` screen) should use the `Details` theme.
 
@@ -86,7 +86,7 @@ For this to work, some (not `XML`) code needs to be written. In the click listen
         startActivity( new Intent( MainActivity.this, DetailsActivity.class ), transitionStarterBundle );
 ```
 
-The [Bundle] tells Android to start the Details activity using a transition. Android will use the transition declared in XML to make this happen.
+The [Bundle](https://developer.android.com/reference/android/os/Bundle.html) tells Android to start the Details activity using a transition. Android will use the transition declared in XML to make this happen.
 
 Simple as that. :end:
 
