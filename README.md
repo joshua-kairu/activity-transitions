@@ -1,10 +1,10 @@
-# intapoleta
+# activity-transitions
 
 Between-activity motion.
 
 ## Introduction :point_up:
 
-This repository holds code for a very basic Android app that shows how to implement movement when switching between activities. I met this app during an online [Udacity](https://www.udacity.com/) class called [Material Design for Android Developers](https://www.udacity.com/course/material-design-for-android-developers--ud862). Original code for the app dwells in [this](https://github.com/udacity/ud862-samples) under a folder called [L4_06_Q](https://github.com/udacity/ud862-samples/tree/master/L4_06_Q).
+This repository holds code for a very basic Android app that shows how to implement movement when switching between activities. I met this app during an online [Udacity](https://www.udacity.com/) class called [Material Design for Android Developers](https://www.udacity.com/course/material-design-for-android-developers--ud862). Original code for the app dwells in [this](https://github.com/udacity/ud862-samples) repository under a folder called [L4_06_Q](https://github.com/udacity/ud862-samples/tree/master/L4_06_Q).
 
 ## Version History :package:
 
@@ -30,11 +30,11 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 ## How It Works
 
-What is happening here is an [Activity Transition]. When an activity is started (say, by another activity), the started activity is said to enter and the starting activity is said to leave. Entering to and leaving from what, I don't know. :bowtie:  
+What is happening here is an [Activity Transition](). When an activity is started (say, by another activity), the started activity is said to enter and the starting activity is said to leave. Entering to and leaving from what, I don't know. :bowtie:  
 
-In the [styles.xml] file we have declared a [theme] called `Details` since `Bb` does look like a details screen :smile:. 
+In the [styles.xml] file we have declared a [theme]() called `Details` since `Bb` does look like a details screen :smile:. 
 
-In the [Android Manifest] file, we have declared that the Details activity (aka the `Bb` screen) should use the `Details` theme.
+In the [Android Manifest]() file, we have declared that the Details activity (aka the `Bb` screen) should use the `Details` theme.
 
 So, what's good about the `Details` theme? In this theme, there is the line 
 
@@ -113,6 +113,7 @@ As of Friday, June 17, 2016, some work that can be done in the future could be:
 Thumbs up :+1: to:
 * Udacity for the knowledge that helped in the creation of this app.
 * Jake Wharton for [Butter Knife](http://jakewharton.github.io/butterknife/), a library for binding fields to views in Android. The grid in `Aa` used this for assisting in the click listening.
+* Why no video? :question: Well, I current have a pre-Lollipop device. I couldn't get this to work in [AppCompat]() so I had to use the emulator. Emulator does not allow recording. :disappointed_relieved: 
 
 ## License :lock_with_ink_pen:
 
