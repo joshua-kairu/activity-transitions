@@ -106,7 +106,7 @@ This, as said earlier, is a very basic app. It does not provide any functionalit
 ## Possible Future Work :fast_forward:
 
 As of Friday, June 17, 2016, some work that can be done in the future could be: 
-- [ ] Allow users to choose which transition they would like to see. There are quite a number of cool transitions such as [explode] and [fade]. 
+- [ ] Allow users to choose which transition they would like to see. There are quite a number of cool transitions such as [explode](https://developer.android.com/reference/android/transition/Explode.html) and [fade](https://developer.android.com/reference/android/transition/Fade.html). 
 
 ## Other things :books:
 
